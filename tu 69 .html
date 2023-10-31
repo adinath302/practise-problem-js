@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript practise porblem</title>
+    <style>
+        body {
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        class password {
+            constructor(password1) {
+                this.password1 = password1
+            }
+            strong(password1) {
+                console.log(`A."%$"` + this.password1);
+            }
+            weak(password1) {
+                console.log(`abcd` + this.password1);
+            }
+            supers(password1) {
+                console.log(`&%#*` + this.password1);
+            }
+            funny() {
+                console.log(`password`);
+            }
+        }
+        let i = new password("Audi")
+        i.strong()
+        i.password1 = "purva"
+        i.weak()
+        i.funny()
+        i.supers()
+        i.strong()
+    </script>
+</body>
+
+</html>
